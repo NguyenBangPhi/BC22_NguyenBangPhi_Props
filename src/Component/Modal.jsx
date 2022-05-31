@@ -1,6 +1,9 @@
 import React from 'react'
 
 export default function Modal({content}) {
+  if(!content){
+    return null;
+  }
   return (
     <div className="row mt-5">
       <div className="col-sm-4">
