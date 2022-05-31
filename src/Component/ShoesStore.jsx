@@ -8,7 +8,7 @@ export default class ShoesStore extends Component {
     super(props)
   
     this.state = {
-       productDetail: {}
+       productDetail: null,
     }
   }
 
